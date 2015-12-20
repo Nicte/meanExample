@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app="app">
+
+<head>
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AngularJS Calc</title>
+</head>
+
+<body>
+  <div ng-controller="CalcController as calc">
+    <h1>Test</h1>
+    <p>{{ calc.name }}</p>
+    <p>{{ calc.sendMessage }}</p>
+  </div>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script type="text/javascript" src="/app/app.module.js"></script>
+  <script type="text/javascript" src="/app/controllers/calc.controller.js"></script>
+  <script type="text/javascript" src="/app/services/calc.service.js"></script>
+</body>
+
+</html>

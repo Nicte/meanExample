@@ -1,0 +1,14 @@
+{
+  "name": "mean_example",
+  "version": "1.0.0",
+  "description": "Mean Stack app structure example",
+  "main": "server.js",
+  "author": "Nicte",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.3.1",
+    "morgan": "^1.6.1"
+  }
+}
